@@ -1,0 +1,170 @@
+@keyframes lights {
+    100% {z-index: -2;}
+}
+
+.blkLight {
+    animation-name: lights;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 9s;
+}
+
+@keyframes appear {
+    100% {z-index: 2;}
+}
+
+.R {
+    animation-name: appear;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+}
+
+.E {
+    animation-name: appear;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 4s;
+}
+
+
+.D {
+    animation-name: appear;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 5.5s;
+}
+
+@keyframes slideLeft {
+    from {
+        transform: translateX(-100vw);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+
+.line1, .line3 {
+    animation-name: slideLeft;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 9s;
+}
+
+@keyframes slideRight {
+    from {
+        transform: translateX(1678px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+
+.line2 {
+    animation-name: slideRight;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 9s;
+}
+
+@keyframes pataas {
+    from {
+        transform: translateY(979px);
+    }
+    to {
+        transform: translateY(0px);
+        z-index: 2;
+    }
+}
+
+.icecream {
+    animation-name: pataas;
+    animation-duration: 8s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 9s;
+}
+
+@keyframes slideOnti {
+    from {
+        transform: translateX(-100vw);
+    }
+    to {
+        transform: translateX(0px);
+        z-index: 2;
+    }
+}
+
+.description {
+    animation-name: slideOnti;
+    animation-duration: 8s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 10s;
+}
+
+@keyframes slideOnti1 {
+    from {
+        transform: translateX(1678px);
+    }
+    to {
+        transform: translateX(0px);
+        z-index: 2;
+    }
+}
+
+.inang {
+    animation-name: slideOnti1;
+    animation-duration: 8s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 10s;
+}
+
+@keyframes curtainRoll {
+    from {
+        transform: translateY(0px);
+    }
+
+    to {
+        transform: translateY(-100vw);
+    }
+}
+
+.curtain {
+    animation-name: curtainRoll;
+    animation-duration: 7s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes shake {
+25% {transform: rotate(0deg);}
+50% {transform: rotate(25deg);}
+75% {transform: rotate(-25deg);}
+100% {transform: rotate(0deg);}
+}
+.cornets {
+    animation-name: shake;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-delay: 15s;
+}
